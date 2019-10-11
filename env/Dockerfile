@@ -11,4 +11,4 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 # build
 # docker build -t node:7.2.0 .
 # run
-# docker run --name
+# docker run --name nodeweb node720
