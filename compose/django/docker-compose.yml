@@ -1,0 +1,19 @@
+version: "3"
+services:
+  db:
+    image: postgres
+  web:
+    build: .
+    command: python manage.py  runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    links:
+      - db
+
+# docker network ls
+# docker-compose run web django-admin startproject django_example .
+# docker-compose up
+# http://localhost:8000 djano欢迎页面
+

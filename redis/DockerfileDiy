@@ -1,0 +1,20 @@
+# 继承自centos
+FROM centos
+
+# 作者
+MAINTAINER xf <11@qq.com>
+
+# 设置环境变量
+ENV MYPATH /user/local
+
+# 设置工作目录，进入容器是/bin/bash目录
+WORKDIR $MYPATH
+
+# 执行命令,安装vim工具
+RUN yum -y install vim
+
+# 向外暴露22端口
+EXPOSE 22
+
+CMD echo $MAYPATH
+CMD echo "SUCCESS!"
