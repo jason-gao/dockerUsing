@@ -1,0 +1,26 @@
+version: '3.0'
+
+services:
+  nginx:
+    container_name: ng-web02
+    restart: always
+    image: nginx
+    ports:
+      - 801:80
+    volumes:
+      - ./data/ng/conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./data/ng/conf/conf.d:/etc/nginx/conf.d:ro
+      - ./data/ng/html:/usr/share/nginx/html
+      - ./data/ng/logs:/var/log/nginx
+    extra_hosts:
+      - host1:192.168.1.1
+      - host2:192.168.1.2
+
+
+
+# docker不能挂载单个文件,nginx.conf需要先docker cp 出来
+
+# docker run --add-host host1:192.168.1.1 --add-host host2:192.168.1.2 容器/etc/hosts修改， 即 extra_hosts
+# docker-compose up -d
+# docker-compose down
+# docker-compose restart
