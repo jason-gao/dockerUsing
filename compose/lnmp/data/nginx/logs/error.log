@@ -1,0 +1,328 @@
+2019/10/18 08:03:49 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:03:49 [error] 6#6: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:05:03 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:05:03 [error] 7#7: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:08:29 [error] 7#7: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:08:29 [error] 7#7: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:08:37 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:08:37 [error] 7#7: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:09:58 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:09:58 [error] 7#7: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.3.150:9000", host: "phpdefault.com:801"
+2019/10/18 08:12:55 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:12:55 [error] 7#7: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:12:57 [error] 7#7: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:12:57 [error] 7#7: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:13:44 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:13:44 [error] 7#7: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:14:21 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:14:21 [error] 6#6: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:14:24 [error] 6#6: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:14:24 [error] 6#6: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.27.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:17:32 [error] 9#9: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:17:32 [error] 9#9: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:17:33 [error] 9#9: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:17:33 [error] 9#9: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "http://192.168.3.150:9000/index.php", host: "phpdefault.com:801"
+2019/10/18 08:51:28 [error] 6#6: *3 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.0.2:9000", host: "phpdefault.com:801"
+2019/10/18 08:51:28 [error] 6#6: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.0.2:9000", host: "phpdefault.com:801"
+2019/10/19 10:20:08 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/10/19 12:36:40 [error] 6#6: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/10/19 14:13:15 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.32.3:9000", host: "phpdefault.com:81"
+2019/10/19 14:26:52 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.32.3:9000", host: "phpdefault.com:81"
+2019/10/19 14:28:22 [error] 7#7: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.32.3:9000", host: "phpdefault.com:81"
+2019/10/19 14:29:06 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.96.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.96.2:9000", host: "phpdefault.com:81"
+2019/10/19 14:59:15 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.128.3:9000", host: "phpdefault.com:81"
+2019/10/19 14:59:18 [error] 6#6: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.3:9000", host: "phpdefault.com:81"
+2019/10/20 05:04:56 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:05:04 [error] 7#7: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:06:21 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:22 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:25 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:28 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:30 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:33 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:37 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:44 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:06:58 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:25 [emerg] 1#1: unknown directive "inclue" in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:44 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:47 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:48 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:50 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:52 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:55 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:07:59 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:08:06 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:08:20 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:08:47 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/defaultphp.conf:36
+2019/10/20 05:10:11 [notice] 15#15: signal process started
+2019/10/20 05:10:29 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:10:33 [error] 20#20: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:37:47 [error] 20#20: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:42:15 [notice] 7#7: signal process started
+2019/10/20 05:42:21 [error] 13#13: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:42:24 [error] 13#13: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:42:28 [error] 13#13: *5 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:42:32 [error] 13#13: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET /a/index.php HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 05:43:02 [error] 13#13: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.128.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.4:9000", host: "phpdefault.com:81"
+2019/10/20 07:20:04 [error] 13#13: *12 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.128.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/10/20 15:42:29 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:33 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:36 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:39 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:42 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:45 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:49 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:42:56 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:43:10 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:43:37 [emerg] 1#1: host not found in upstream "php-fpm-7.2.23" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/20 15:45:27 [error] 7#7: *5 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/10/20 15:59:16 [error] 7#7: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading response header from upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "phpdefault.com:81"
+2019/10/20 16:00:29 [error] 7#7: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading response header from upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "phpdefault.com:81"
+2019/10/20 16:02:15 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "phpdefault.com:81"
+2019/10/20 16:02:16 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/20 16:13:24 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/20 16:13:25 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/20 16:14:06 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/20 16:14:07 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/20 16:14:52 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'aa' in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/20 16:14:52 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'aa' in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/20 16:15:21 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'aa' in /var/www/html/index.php:5
+Stack trace:
+#0 /var/www/html/index.php(5): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /var/www/html/index.php on line 5" while reading response header from upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/21 03:59:12 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'php'@'localhost' (using password: YES) in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php1')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/21 04:00:05 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'laravel1' in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.16.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "phpdefault.com:81"
+2019/10/21 04:04:02 [error] 7#7: *16 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:81", referrer: "http://127.0.0.1:81/"
+2019/10/21 07:44:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:44:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:45:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:46:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:46:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:46:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:46:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:47:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:48:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 07:50:38 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 172.28.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.28.0.3:9000", host: "phpdefault.com:81"
+2019/10/21 07:51:44 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 172.29.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.4:9000", host: "phpdefault.com:81"
+2019/10/21 07:57:14 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 172.30.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "phpdefault.com:81"
+2019/10/21 07:57:16 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 172.30.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "phpdefault.com:81"
+2019/10/21 08:04:47 [error] 6#6: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 172.30.0.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:04:47 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.30.0.1, server: homev5.yundun.cc, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "homev5.yundun.cc:81", referrer: "http://homev5.yundun.cc:81/"
+2019/10/21 08:05:14 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 172.30.0.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:29:25 [error] 6#6: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:31 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:32 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:32 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:32 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:32 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:32:32 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.16.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:00 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:01 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:01 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:36:09 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:38:03 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:38:06 [error] 8#8: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:39:43 [error] 8#8: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:39:43 [error] 8#8: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:39:43 [error] 8#8: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:39:45 [error] 8#8: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:05 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:06 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:06 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:06 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:06 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:06 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:07 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:40:07 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:41:59 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: homev5.yundun.cc, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "homev5.yundun.cc:81"
+2019/10/21 08:42:44 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: homev5.yundun.cc, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "homev5.yundun.cc:81"
+2019/10/21 08:42:54 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: homev5.yundun.cc, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:13 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:21 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:41 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:41 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:41 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:43:41 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:44:23 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:44:24 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:44:24 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:44:24 [error] 7#7: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:46:03 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:46:03 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:46:03 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:46:04 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:46:04 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:48:33 [error] 7#7: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.32.1, server: homev5.yundun.cc, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "homev5.yundun.cc:81"
+2019/10/21 08:48:36 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:00 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:00 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:00 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:01 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:01 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:36 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:37 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:37 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:37 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:37 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:49:37 [error] 7#7: *11 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:50:50 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "phpdefault.com:81"
+2019/10/21 08:50:50 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/21 08:51:04 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/21 08:51:07 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "phpdefault.com:81"
+2019/10/21 08:51:07 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: could not find driver in /var/www/html/index.php:6
+Stack trace:
+#0 /var/www/html/index.php(6): PDO->__construct('mysql:host=host...', 'php', 'php')
+#1 {main}
+  thrown in /var/www/html/index.php on line 6" while reading response header from upstream, client: 192.168.32.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.32.2:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/21 08:51:34 [error] 7#7: *10 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:55:53 [error] 6#6: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:55:56 [error] 6#6: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 08:56:00 [error] 6#6: *1 "/var/www/html/gitlabcompany/home-v5-backend/Public/index.php" is not found (2: No such file or directory), client: 192.168.32.1, server: homev5.yundun.cc, request: "GET / HTTP/1.1", host: "homev5.yundun.cc:81"
+2019/10/21 11:01:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:01:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:02:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:03:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:04:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:05:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:06:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:07:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:08:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:09:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:10:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:11:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:12:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:13:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:14:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:15:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:16:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:17:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:18:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/21 11:19:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/defaultphp.conf:32
+2019/10/22 06:13:14 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /curl.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:13:14 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/curl.php"
+2019/10/22 06:13:21 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET / HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:13:21 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/"
+2019/10/22 06:13:24 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:13:25 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/22 06:13:27 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:13:27 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/22 06:14:58 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:14:58 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81"
+2019/10/22 06:14:59 [error] 6#6: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.0.1, server: phpdefault.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.0.0.11:9000", host: "phpdefault.com:81", referrer: "http://phpdefault.com:81/phpinfo.php"

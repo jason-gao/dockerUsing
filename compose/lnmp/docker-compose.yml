@@ -8,15 +8,16 @@ services:
     ports:
       - 81:80
     volumes:
-      - ./data/ng/conf/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./data/ng/conf/conf.d:/etc/nginx/conf.d:ro
-      - ./data/ng/html:/usr/share/nginx/html
-      - ./data/ng/logs:/var/log/nginx
+      - ./data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./data/nginx/conf/conf.d:/etc/nginx/conf.d:ro
+      - ./data/nginx/html:/usr/share/nginx/html
+      - ./data/nginx/logs:/var/log/nginx
     networks:
-      - lnmp
+        lnmp:
+          ipv4_address: 10.0.0.10
+
 
   php:
-      #container_name: php-fpm-7.2.23
       container_name: php
       restart: always
       image: php:7.2-fpm
@@ -27,8 +28,15 @@ services:
         - ./data/php/php-fpm.d:/usr/local/etc/php-fpm.d:ro
         - ./data/php/php-fpm.conf:/usr/local/etc/php-fpm.conf:ro
         - ./data/php/html:/var/www/html
+        - /Users/crystal/codes/php/gitlabcompany:/var/www/html/gitlabcompany
       networks:
-        - lnmp
+        lnmp:
+           ipv4_address: 10.0.0.11
+      extra_hosts:
+        - "sso.yundun.cc:10.0.0.10"
+      #command: chmod +x /var/www/html/entrypoint.sh
+      #entrypoint: sh /var/www/html/entrypoint.sh
+
   mysql:
     container_name: mysql
     restart: always
@@ -49,21 +57,31 @@ services:
 #      MYSQL_ROOT_HOST: '%'
 #      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     networks:
-      - lnmp
-  adminer:
-    container_name: adminer
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
-    networks:
-      - lnmp
+       lnmp:
+         ipv4_address: 10.0.0.12
 
 networks:
   lnmp:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.0.0.0/24
 
 
 # docker不能挂载单个文件,nginx.conf需要先docker cp 出来
 # docker-compose up -d
 # docker-compose down
 # docker-compose restart
+
+# docker-compose restart php
+
+# 进入php容器
+# docker exec -it php bash
+
+# 安装扩展
+# docker-php-ext-install mysqli
+# docker-php-ext-install pdo_mysql
+# pecl install redis && docker-php-ext-enable redis
+# libmemcached
+# zlib

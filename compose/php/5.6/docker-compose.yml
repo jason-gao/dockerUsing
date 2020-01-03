@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  php56fpm:
+    container_name: php-5.6-fpm-alpine
+    image: php:5.6-fpm-alpine
+    ports:
+      - 9010:9000
+    volumes:
+      - ./data:/var/www/html
+
+# docker-compose up -d
+# docker-compose down
+# docker-compose restart

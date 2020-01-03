@@ -1,0 +1,1 @@
+- https://bitbucket.org/atlassianlabs/atlassian-docker/src/master/
