@@ -1,0 +1,11 @@
+version: "3"
+services:
+  beanstalk_consle:
+    image: tudoumogu/bc:latest
+    ports:
+      - "82:80"
+    restart: always
+
+# docker-compose up -d
+# echo "127.0.0.1 btc.com" >> /etc/hosts
+# btc.com:82
