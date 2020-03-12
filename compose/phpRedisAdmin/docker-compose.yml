@@ -1,0 +1,13 @@
+version: '3'
+services:
+  phpredisadmin:
+    image: erikdubbelboer/phpredisadmin
+    container_name: phpredisadmin
+    environment:
+      - REDIS_1_HOST=docker.for.mac.host.internal
+      - REDIS_1_NAME=default
+      - REDIS_1_PORT=6379
+      - REDIS_1_AUTH=
+    restart: always
+    ports:
+      - "85:80"

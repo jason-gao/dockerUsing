@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  beanstalkd:
+    image: schickling/beanstalkd
+    ports:
+      - "11301:11300"
+    volumes:
+      - ./conf.d/beanstalkd:/etc/conf.d/beanstalkd
+      - ./beanstalkd:/var/lib/beanstalkd
+    container_name: "beanstalkd"
+    restart: always
+
+networks:
+  default:
+    driver: bridge

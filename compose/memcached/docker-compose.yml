@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  memcached:
+    image: memcached:alpine
+    ports:
+      - "11211:11211"
+    volumes:
+      - ./memcached:/usr/local/include/memcached
+    container_name: "memcached"
+    restart: always
+
+networks:
+  default:
+    driver: bridge
