@@ -28,6 +28,20 @@ services:
       - ./config.js:/node_modules/mongo-express/config.js
     links:
        - mongo
+  mongo-express-200:
+    image: mongo-express
+    ports:
+      - 8083:8081
+    restart: always
+    environment:
+      ME_CONFIG_OPTIONS_EDITORTHEME: ambiance
+      ME_CONFIG_MONGODB_URL: mongodb://172.16.100.200:27017
+      ME_CONFIG_BASICAUTH_USERNAME: ""
+      ME_CONFIG_BASICAUTH_PASSWORD: ""
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: admin
+    volumes:
+      - ./config.js:/node_modules/mongo-express/config.js
 
 
 

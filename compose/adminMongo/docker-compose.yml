@@ -1,0 +1,8 @@
+version: '3'
+services:
+  adminMongoService:
+    image: tudoumogu/admin-mongo
+    container_name: adminMongo
+    restart: always
+    ports:
+      - "1234:1234"
